@@ -11,6 +11,7 @@
       margin: 0;
     }
 
+    
     .box {
       width: 200px;
       height: 200px;
@@ -18,11 +19,13 @@
       display: inline-block;
     }
 
+    
     .box1 {
       background-color: cadetblue;
       padding: 20px;
       border: 10px solid black;
     }
+
     
     .box2 {
       background-color: gold;
@@ -32,16 +35,12 @@
       border-right: 10px solid black;
     }
 
+    
     .box3 {
       background-color: indianred;
       border: 10px solid black;
     }
-    
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      width: 440px; 
-    }
+
     
     .box2, .box3 {
       margin-top: -10px; 
