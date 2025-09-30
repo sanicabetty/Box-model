@@ -1,58 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Box Model</title>
-
-  <style>
-
-    .box {
-      width: 200px;
-      height: 200px;
-      box-sizing: border-box;
-      display: inline-block;
-    }
-
-    
-    .box1 {
-      background-color: cadetblue;
-      padding: 20px;
-      border: 10px solid black;
-    }
-
-    
-    .box2 {
-      background-color: gold;
-      border-top: 20px solid black;
-      border-bottom: 20px solid black;
-      border-left: 10px solid black;
-      border-right: 10px solid black;
-    }
-
-    
-    .box3 {
-      background-color: indianred;
-      border: 10px solid black;
-    }
-
-    
-    .box2, .box3 {
-      margin-top: -10px; 
-      margin-left: -10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .box {
+            background-color: cadetblue;
+            width:200px;
+            height:200px;
+            border: 10px solid black;
+            padding: 20px:
+        }
+      
+        .box-2 {
+            background-color: gold;
+            width:200px;
+            height:200px;
+            border: 20px solid black;
+            border-width:20px 10px;
+            margin-left: 260px;
+        }
+        
+        .box-3 {
+            background-color: indianred;
+            width:200px;
+            height:200px;
+            border: 10px solid black;
+            margin-left: 40px;
+        }
+        
+        p {
+            margin: 0;
+        }
+        
+    </style>
 </head>
 <body>
-
-  <div class="container">
-    <div class="box box1">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus dolor metus, laoreet ac convallis sit amet, efficitur sod dolor.</p>
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit. Aliquam at apien porttitor urna elementum lacinia. In id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</p>
     </div>
-    <br>
-    <div class="box box2"></div>
-    <br>
-    <div class="box box3"></div>
-  </div>
 
+    <div class="box-2">
+
+    </div>
+
+    <div class="box-3">
+
+    </div>
 </body>
 </html>
