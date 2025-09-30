@@ -52,13 +52,11 @@
 
   <div class="container">
     <div class="box box1">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. 
-        In id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. 
-        Phasellus dolor metus, laoreet ac convallis sit amet, efficitur sod dolor.
-      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus dolor metus, laoreet ac convallis sit amet, efficitur sod dolor.</p>
     </div>
+    <br>
     <div class="box box2"></div>
+    <br>
     <div class="box box3"></div>
   </div>
 
