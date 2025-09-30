@@ -13,16 +13,16 @@
             padding: 20px:
         }
       
-        .box-2 {
+        .box2 {
             background-color: gold;
-            width:200px;
+            width: 200px;
             height:200px;
             border: 20px solid black;
             border-width:20px 10px;
             margin-left: 260px;
         }
         
-        .box-3 {
+        .box3 {
             background-color: indianred;
             width:200px;
             height:200px;
@@ -41,12 +41,11 @@
         <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit. Aliquam at apien porttitor urna elementum lacinia. In id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</p>
     </div>
 
-    <div class="box-2">
+    <div class="box2">
 
     </div>
 
-    <div class="box-3">
-
+    <div class="box3">
     </div>
 </body>
 </html>
