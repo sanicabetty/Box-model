@@ -31,7 +31,7 @@
         }
         
         p {
-            margin: 0;
+            margin: -10px;
         }
         
     </style>
@@ -40,8 +40,10 @@
     <div class="box">
  <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit. Aliquam at apien porttitor urna elementum lacinia. In id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</p></div>
 
-    <div class="box2"></div>
+    <div class="box2">
+    </div>
 
-    <div class="box3"></div>
+    <div class="box3">
+    </div>
 </body>
 </html>
